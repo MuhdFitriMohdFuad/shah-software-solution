@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shah Software Solution - Professional IT Services</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            background: #005EA6;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #0078D7;
+            color: #fff;
+            padding: 0.75rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease, text-decoration 0.3s ease;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            transform: scale(1.1);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/hero-bg.png') center/cover no-repeat;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+        }
+
+        /* Sections */
+        section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #005EA6;
+            margin-bottom: 1rem;
+        }
+
+        /* Features */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .feature {
+            flex: 1;
+            min-width: 300px;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem 1rem 2rem;
+            position: relative;
+            overflow: hidden;
+            transition: max-height 0.5s ease, transform 0.5s ease;
+            max-height: 150px;
+            transform: scale(1);
+        }
+
+        .feature.expanded {
+            max-height: 400px;
+            transform: scale(1.02);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature h3 {
+            margin-bottom: 1rem;
+            color: #0078D7;
+        }
+
+        .feature .details {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #555;
+            display: none;
+        }
+
+        .feature.expanded .details {
+            display: block;
+        }
+
+        .feature button {
+            background: #0078D7;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .feature button:hover {
+            background: #005EA6;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            background: #0078D7;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #005EA6;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* About Us */
+        #about {
+            background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 2rem auto;
+            max-width: 1200px;
+            font-family: Arial, sans-serif;
+        }
+
+        #about h2 {
+            text-align: center;
+            color: #005EA6;
+            margin-bottom: 1.5rem;
+        }
+
+        #about p {
+            line-height: 1.8;
+            color: #333;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 250px;
+            max-width: 400px;
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #0078D7;
+            margin-bottom: 1rem;
+        }
+
+        .card p, .card ul {
+            color: #555;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* About Us */
+        .contact-section {
+            background-color: #f9fafb;
+            padding: 2rem;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .contact-section p {
+            font-size: 1.125rem;
+            color: #4a5568;
+            margin-bottom: 2rem;
+        }
+
+        .contact-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-details div p {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-details a {
+            font-size: 1rem;
+            color: #3182ce;
+            text-decoration: none;
+        }
+
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-links a {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            color: #3182ce;
+            font-size: 1.125rem;
+            font-weight: 600;
+        }
+
+        .contact-links img {
+            height: 2rem;
+            width: 2rem;
+        }
+
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+        .btn-blue {
+            background-color: #007bff; /* Bootstrap blue */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-blue:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shah Software Solution</h1>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Your Partner in Digital Transformation</h2>
+    </div>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Website Development</h3>
+                <p>We create responsive, SEO-friendly websites tailored to your brand, ensuring an impactful online presence.</p>
+                <div class="details">
+                    <h4>Plans:</h4>
+                    <ul>
+                        <li><strong>Static Website</strong>: RM350 to RM1,000 </li>
+                        <li><strong>Mid-Level Website</strong>: RM20,000 to RM100,000 </li>
+                        <li><strong>Full Website & System Development</strong>: Starting at RM100,000 </li>
+                    </ul>
+                </div>
+                <button onclick="toggleDetails(this)">Learn More</button>
+            </div>
+            <div class="feature">
+                <h3>Mobile App Development</h3>
+                <p>Build native and hybrid apps to enhance user engagement and streamline business operations.</p>
+                <div class="details">
+                    <h4>Plans:</h4>
+                    <ul>
+                        <li><strong>Basic App</strong>: RM5,000 to RM20,000</li>
+                        <li><strong>Cross-platform App</strong>: RM30,000 to RM100,000</li>
+                        <li><strong>Premium Custom App</strong>: Starting at Starting at RM100,000 </li>
+                    </ul>
+                </div>
+                <button onclick="toggleDetails(this)">Learn More</button>
+            </div>
+            <div class="feature">
+                <h3>UI/UX Design</h3>
+                <p>Design intuitive user experiences that captivate and retain customers while enhancing usability.</p>
+                <div class="details">
+                    <h4>Plans:</h4>
+                    <ul>
+                        <li><strong>Basic Design</strong>: RM3,000 - up to 3 pages</li>
+                        <li><strong>Pro Design</strong>: RM8,000 - up to 10 pages, user testing</li>
+                        <li><strong>Complete Suite</strong>: RM15,000 - end-to-end design for large projects</li>
+                    </ul>
+                </div>
+                <button onclick="toggleDetails(this)">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section id="payment-plans feature">
+        <h2>Flexible Payment Plans</h2>
+        <p>
+            We understand that every business is different — and that includes your budgeting needs. At <strong>Shah Software Solution</strong>, we offer flexible payment options to make our services more accessible.
+        </p>
+        <div class="cards">
+            <div class="card">
+                <h3>Monthly & Yearly Installments</h3>
+                <p>
+                    Spread your payments comfortably with our structured plans. Whether short-term or long-term, we’ve got options to suit your cash flow.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Custom Plan Duration</h3>
+                <p>
+                    Choose from various durations — from just a few months to <strong>up to 7 years</strong> — all designed to ease your financial commitment while delivering full service value.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Maintenance Options</h3>
+                <p>
+                    Plans can include ongoing maintenance and support, so you get peace of mind knowing your solution is always performing at its best.
+                </p>
+            </div>
+        </div>
+        <p style="margin-top: 1em;">
+            <strong>Ready to get started?</strong> Contact us today to discuss a plan that works for you.
+        </p>
+        <button class="btn-blue" onclick="window.location.href='#contact';">Contact Us</button>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            <strong>Shah Software Solution</strong> is not just another IT company. We are a dynamic and innovative tech startup dedicated to crafting intelligent, scalable, and user-centric solutions. 
+        </p>
+        <div class="cards">
+            <div class="card">
+                <h3>Our Mission</h3>
+                <p>Empowering businesses to thrive in the digital era through cutting-edge technology and unparalleled customer service.</p>
+            </div>
+            <div class="card">
+                <h3>Our Vision</h3>
+                <p>To become a global leader in IT innovation, creating solutions that transform industries and enrich lives.</p>
+            </div>
+            <div class="card">
+                <h3>Our Values</h3>
+                <ul>
+                    <li>💡 Innovation</li>
+                    <li>🤝 Collaboration</li>
+                    <li>🌍 Integrity</li>
+                    <li>🚀 Excellence</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have a project in mind? Let’s build something amazing together!</p>
+        <div class="contact-details">
+            <div>
+                <p><strong>Email:</strong></p>
+                <a href="mailto:info@ssoftwaresolution.com">info@ssoftwaresolution.com</a>
+            </div>
+            <div>
+                <p><strong>Phone:</strong></p>
+                <a href="tel:+601114196505">+60 11-1419 6505</a>
+            </div>
+        </div>
+        <div class="contact-links">
+            <a href="https://wa.me/601114196505" target="_blank">
+                <img src="./images/whatsapp-icon.png" alt="WhatsApp">
+                <span>WhatsApp</span>
+            </a>
+            <!-- <a href="https://instagram.com/yourcompany" target="_blank">
+                <img src="./images/instagram-icon.png" alt="Instagram">
+                <span>Instagram</span>
+            </a> -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <span id="year"></span> Shah Software Solution. All Rights Reserved.</p>
+    </footer>
+    <script>
+        function toggleDetails(buttonElement) {
+    const featureElement = buttonElement.parentElement;
+    const allFeatures = document.querySelectorAll('.feature');
+
+    allFeatures.forEach((feature) => {
+        if (feature !== featureElement) {
+            feature.classList.remove('expanded');
+            feature.querySelector('button').textContent = 'Learn More';
+        }
+    });
+
+    if (featureElement.classList.contains('expanded')) {
+        featureElement.classList.remove('expanded');
+        buttonElement.textContent = 'Learn More';
+    } else {
+        featureElement.classList.add('expanded');
+        buttonElement.textContent = 'Show Less';
+    }
+}
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

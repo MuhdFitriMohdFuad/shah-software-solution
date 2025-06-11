@@ -76,14 +76,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Navbar background change on scroll
-// window.addEventListener('scroll', () => {
-//   const navbar = document.querySelector('.navbar');
-//   if (window.scrollY > 100) {
-//     navbar.style.background = 'rgba(10, 10, 10, 0.98)';
-//   } else {
-//     navbar.style.background = 'rgba(10, 10, 10, 0.95)';
-//   }
-// });
+window.addEventListener('scroll', () => {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 0) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+  
 
 // Intersection Observer for animations
 const observerOptions = {

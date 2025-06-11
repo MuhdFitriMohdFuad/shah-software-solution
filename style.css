@@ -173,6 +173,12 @@ body {
   box-shadow: 0 4px 15px rgba(0, 136, 255, 0.3);
 }
 
+.btn-primary:disabled  {
+  background-color: grey !important;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
 .btn-primary:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(0, 136, 255, 0.4);

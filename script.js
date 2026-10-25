@@ -28,7 +28,7 @@ const MS = {
   'foot.upd': 'Kemas kini terakhir',
   'faq.q0': 'Berapa harga sebuah laman web?', 'faq.a0': 'Laman pendaratan bermula dari RM399, laman korporat dari RM899 dan laman e-dagang dari RM1,299. Setiap pakej laman web termasuk domain, hosting 1 tahun dan SSL.', 'hero.eye': 'Studio pembangunan perisian di Malaysia',
   'hero.p': 'Laman web, aplikasi mudah alih, sistem perniagaan dan IoT untuk perniagaan Malaysia. Laman pendaratan dari RM399, termasuk domain, hosting dan SSL.',
-  'hero.label': 'Nama bisnes', 'hero.cta': 'Bina betul-betul',
+  'hero.label': 'Nama bisnes', 'hero.cta': 'Lihat harga untuk ini',
   'kind.cafe': 'Kafe', 'kind.clinic': 'Klinik', 'kind.shop': 'Kedai', 'kind.salon': 'Salun', 'kind.startup': 'Startup',
   'pipe.h': 'Dari mesej pertama hingga dilancarkan',
   'pipe.s0': 'Reka bentuk', 'pipe.s0p': 'Kami lakar halaman dan setuju rupanya dengan anda sebelum sebarang kod ditulis.',
@@ -161,7 +161,6 @@ function renderSite(typeIt = true, rebuild = true) {
   const msg = lang === 'ms'
     ? `Hai Shah Software, saya mahu laman web untuk ${state.name} (${kindLabel}). Boleh beri anggaran kos?`
     : `Hi Shah Software, I'd like a website for ${state.name} (${kindLabel}). Can you send me a cost estimate?`;
-  $('#build-wa').href = WA + encodeURIComponent(msg);
   $('#close-wa').href = WA + encodeURIComponent(msg);
   if (typeIt) typeCode();
 }
@@ -570,6 +569,16 @@ function renderPkgs() {
   }).join('');
   $$('#pkg-tabs button').forEach((b) => b.addEventListener('click', () => { pkgSel = b.dataset.svc; renderPkgs(); $(`#pkg-tabs [data-svc="${pkgSel}"]`).focus(); }));
 }
+
+/* ---------- builder to estimator: the widget's button opens the price for the site it drew ---------- */
+$('#build-wa').addEventListener('click', (e) => {
+  e.preventDefault();
+  const kindLabel = $(`[data-kind="${state.kind}"]`).textContent, nm = state.name.trim() || (lang === 'ms' ? 'bisnes saya' : 'my business');
+  $('#idea').value = lang === 'ms' ? `Laman web untuk ${nm} (${kindLabel}), satu halaman dengan butang WhatsApp` : `Website for ${nm} (${kindLabel}), one page with a WhatsApp button`;
+  $$('#seg button').forEach((o) => o.setAttribute('aria-selected', String(o.dataset.svc === 'web')));
+  $('#analyse').click();
+  $('.planner').scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
+});
 
 /* ---------- language ---------- */
 function setLang(l) {

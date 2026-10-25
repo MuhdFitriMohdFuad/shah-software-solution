@@ -8,7 +8,7 @@
 
 ## Website packages (MYR, starting prices)
 
-- Landing Page, from RM399: 1 page, basic SEO, contact or WhatsApp button, domain and hosting for 1 year, SSL, 3 months support. About 1 week.
+- Landing Page, from RM399: 1 page, basic SEO, contact or WhatsApp button, domain and hosting for 1 year, SSL, 3 months support. Can be ready in 1 day.
 - Corporate Website, from RM899: 5 to 7 pages, contact form and Google Map, SEO setup, domain and hosting for 1 year, SSL, 6 months support. 1 to 2 weeks.
 - E-Commerce Website, from RM1,299: unlimited products, customer accounts, FPX and card payment, order management, domain and hosting for 1 year, SSL. 2 to 3 weeks.
 - Website & System, from RM2,999: login and logout, admin panel, database and custom features. 3 to 6 weeks.
@@ -43,4 +43,5 @@ Three phases: 30% to start design, 40% when the design is approved and building 
 ## Pages
 
 - [Homepage](https://www.ssoftwaresolution.com/): services, live demos, cost estimator, FAQ and contact form.
-- [Pricing](https://www.ssoftwaresolution.com/pricing.md): website packages and how other projects are priced.
+- [Pricing](https://www.ssoftwaresolution.com/pricing.md): packages, pros and cons, and how to choose.
+- [Portfolio](https://www.ssoftwaresolution.com/work.html): all seven live demos with screenshots, what each does and who it suits.

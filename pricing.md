@@ -10,7 +10,7 @@ Every website package includes a domain, 1 year of hosting and SSL.
 
 | Package | Price from | What you get | Typical time |
 |---|---|---|---|
-| Landing Page | RM399 | 1 page, basic SEO, contact or WhatsApp button, 3 months support | 1 week |
+| Landing Page | RM399 | 1 page, basic SEO, contact or WhatsApp button, 3 months support | 1 day |
 | Corporate Website | RM899 | 5 to 7 pages, contact form and Google Map, SEO setup, 6 months support | 1 to 2 weeks |
 | E-Commerce Website | RM1,299 | Unlimited products, customer accounts, FPX and card payment, order management | 2 to 3 weeks |
 | Website & System | RM2,999 | Login and logout, admin panel, database and custom features | 3 to 6 weeks |
@@ -59,7 +59,7 @@ Prices differ by how many pages the site has and whether it only shows informati
 
 Only need people to find you and contact you? Landing Page. Need several pages about your company and services? Corporate Website. Want to sell and take payment online? E-Commerce. Need members or staff to log in? Website & System.
 
-- **Landing Page**: good: Lowest price, live in about 1 week; One clear message that drives WhatsApp enquiries. Watch out: Only one page, so little room for detail; No online orders, payments or login.
+- **Landing Page**: good: Lowest price, can go live in 1 day; One clear message that drives WhatsApp enquiries. Watch out: Only one page, so little room for detail; No online orders, payments or login.
 - **Corporate Website**: good: Room to explain your company, services and team; More pages help you show up on Google. Watch out: Information only, no online sales; Text and photos need to come from you.
 - **E-Commerce Website**: good: Sell around the clock with FPX and card payment; Order management to track every sale. Watch out: Product photos and stock must be kept up to date; Payment gateways charge a small fee per sale.
 - **Website & System**: good: Login, admin panel and features built around your process; Can grow into a full system later. Watch out: Higher price and a longer build; Needs clear requirements before we start.

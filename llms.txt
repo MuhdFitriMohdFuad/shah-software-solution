@@ -1,0 +1,46 @@
+# Shah Software Solution
+
+> Malaysian software development company (SSM 202403307959, CT0143545-X) that designs and builds websites, mobile apps, business systems, IoT and UI/UX design for businesses in Malaysia. Website packages start from RM399 with domain, 1 year of hosting and SSL included. Works in English and Bahasa Melayu.
+
+- Website: https://www.ssoftwaresolution.com/
+- Contact: WhatsApp +60 11-1419 6505, info@ssoftwaresolution.com
+- Last updated: 2026-10-25
+
+## Website packages (MYR, starting prices)
+
+- Landing Page, from RM399: 1 page, basic SEO, contact or WhatsApp button, domain and hosting for 1 year, SSL, 3 months support. About 1 week.
+- Corporate Website, from RM899: 5 to 7 pages, contact form and Google Map, SEO setup, domain and hosting for 1 year, SSL, 6 months support. 1 to 2 weeks.
+- E-Commerce Website, from RM1,299: unlimited products, customer accounts, FPX and card payment, order management, domain and hosting for 1 year, SSL. 2 to 3 weeks.
+- Website & System, from RM2,999: login and logout, admin panel, database and custom features. 3 to 6 weeks.
+
+## Other packages (MYR, starting prices)
+
+- Mobile app: Basic App from RM2,999, Cross-platform App from RM4,999, Premium Custom App from RM11,999.
+- Business system: Starter System from RM1,999, Business System from RM3,999, Company-wide System from RM7,999.
+- IoT: Prototype from RM1,999, Pilot from RM4,999, Production from RM11,999.
+- UI/UX design: Basic Design from RM499, Pro Design from RM1,499, Complete Suite from RM3,999.
+
+IoT prices exclude hardware. Add-on features cost RM300 to RM1,500 each. Full detail: https://www.ssoftwaresolution.com/pricing.md
+
+## Licence
+
+All prices are for a licence to use the software for your business. The source code stays the property of Shah Software Solution: it may not be copied, modified or resold. Owning the source code is priced separately. Business data belongs to the client and can be exported.
+
+## How projects are paid
+
+Three phases: 30% to start design, 40% when the design is approved and building starts, 30% before launch. Maintenance after launch is quoted separately.
+
+## Live demos
+
+- [Nusa HR](https://demo-hrms.ssoftwaresolution.com/): HR system for attendance, leave, claims and payroll.
+- [Stageflow](https://demo-eventoperation.ssoftwaresolution.com/): event operations, from planning to a live event-day control room.
+- [Gilir](https://demo-servicequeue.ssoftwaresolution.com/): service queue where customers take a number from their phone.
+- [Tableline](https://demo-restaurantqueue.ssoftwaresolution.com/r/BAYU-PJ): restaurant waitlist with table-ready notices.
+- [Folk Barber](https://demo-booking.ssoftwaresolution.com/services): booking system for services, staff and time slots.
+- [Sora Parfum](https://demo-ecommerce.ssoftwaresolution.com/): online store with product pages, bag and checkout.
+- [Ruang Studio](https://demo-landingpage.ssoftwaresolution.com/): landing page built to get consultation bookings.
+
+## Pages
+
+- [Homepage](https://www.ssoftwaresolution.com/): services, live demos, cost estimator, FAQ and contact form.
+- [Pricing](https://www.ssoftwaresolution.com/pricing.md): website packages and how other projects are priced.

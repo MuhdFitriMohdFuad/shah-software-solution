@@ -527,7 +527,8 @@ function applyIdea(r, source) {
   out.hidden = false;
   out.classList.remove('pop'); void out.offsetWidth; out.classList.add('pop');
 }
-$('#analyse-l').textContent = AI_ENDPOINT ? 'Estimate with AI' : 'Work out my estimate';
+const analyseLabel = () => { $('#analyse-l').textContent = lang === 'ms' ? (AI_ENDPOINT ? 'Anggar dengan AI' : 'Kira anggaran saya') : (AI_ENDPOINT ? 'Estimate with AI' : 'Work out my estimate'); };
+analyseLabel();
 $('#analyse').addEventListener('click', async () => {
   const text = $('#idea').value.trim(), btn = $('#analyse');
   if (text.length < 8) { $('#idea').focus(); return; }
@@ -596,6 +597,7 @@ function setLang(l) {
   renderSite(false); $('#code').innerHTML = hl(codeLines());
   renderWork();
   renderSvc(); renderTiers(); renderPkgs(); calc(); splitHero();
+  if (typeof analyseLabel === 'function') analyseLabel();
   $('[data-wa="hello"]').href = WA + encodeURIComponent(l === 'ms' ? 'Hai Shah Software, saya ingin tahu lebih lanjut.' : "Hi Shah Software, I'd like to know more.");
 }
 $$('.lang button').forEach((b) => b.addEventListener('click', () => setLang(b.dataset.lang)));

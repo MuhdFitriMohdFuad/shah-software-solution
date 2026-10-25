@@ -1,384 +1,730 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-MY">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shah Software Solution - Tech Innovation</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init('FKkC4eU0EN20aj2R3'); // Your actual public key
-        })();
-    </script>
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software, Website &amp; App Development Malaysia | Shah Software Solution</title>
+<meta name="description" content="Websites from RM399, mobile apps, business systems and IoT, designed and built in Malaysia by Shah Software Solution. Estimate your build cost online and try 7 live demos.">
+<link rel="canonical" href="https://www.ssoftwaresolution.com/">
+<link rel="alternate" hreflang="en-MY" href="https://www.ssoftwaresolution.com/">
+<link rel="alternate" hreflang="x-default" href="https://www.ssoftwaresolution.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Shah Software Solution">
+<meta property="og:url" content="https://www.ssoftwaresolution.com/">
+<meta property="og:title" content="Your business. Built block by block.">
+<meta property="og:description" content="Websites from RM399, mobile apps, business systems and IoT for Malaysian businesses. See an estimated build cost before you commit.">
+<meta property="og:image" content="https://www.ssoftwaresolution.com/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#dfe6ed">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="brand/svg/sss-favicon.svg" type="image/svg+xml">
+<link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="style.css">
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://www.ssoftwaresolution.com/#website",
+   "url": "https://www.ssoftwaresolution.com/",
+   "name": "Shah Software Solution",
+   "inLanguage": [
+    "en-MY",
+    "ms-MY"
+   ],
+   "publisher": {
+    "@id": "https://www.ssoftwaresolution.com/#business"
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://www.ssoftwaresolution.com/#webpage",
+   "url": "https://www.ssoftwaresolution.com/",
+   "name": "Software, Website & App Development Malaysia | Shah Software Solution",
+   "isPartOf": {
+    "@id": "https://www.ssoftwaresolution.com/#website"
+   },
+   "about": {
+    "@id": "https://www.ssoftwaresolution.com/#business"
+   },
+   "inLanguage": "en-MY",
+   "dateModified": "2026-10-25",
+   "primaryImageOfPage": "https://www.ssoftwaresolution.com/images/og-image.jpg"
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://www.ssoftwaresolution.com/#business",
+   "name": "Shah Software Solution",
+   "url": "https://www.ssoftwaresolution.com/",
+   "logo": "https://www.ssoftwaresolution.com/images/apple-touch-icon.png",
+   "image": "https://www.ssoftwaresolution.com/images/og-image.jpg",
+   "email": "info@ssoftwaresolution.com",
+   "telephone": "+601114196505",
+   "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "SSM",
+    "value": "202403307959 (CT0143545-X)"
+   },
+   "areaServed": {
+    "@type": "Country",
+    "name": "Malaysia"
+   },
+   "knowsLanguage": [
+    "en",
+    "ms"
+   ],
+   "priceRange": "From RM399",
+   "description": "Malaysian software development company that designs and builds websites, mobile apps, business systems, IoT and UI/UX design, with an online cost estimate and payment in project phases.",
+   "knowsAbout": [
+    "Website development",
+    "E-commerce websites",
+    "Mobile app development",
+    "HR systems",
+    "Queue management systems",
+    "Booking systems",
+    "Event operation systems",
+    "IoT",
+    "UI/UX design"
+   ],
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Packages and starting prices",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "name": "Landing Page",
+      "category": "Website",
+      "price": "399",
+      "priceCurrency": "MYR",
+      "description": "1 page, domain & hosting 1 year, SSL, basic SEO, 3 months support"
+     },
+     {
+      "@type": "Offer",
+      "name": "Corporate Website",
+      "category": "Website",
+      "price": "899",
+      "priceCurrency": "MYR",
+      "description": "5 to 7 pages, contact form & Google Map, SEO, domain & hosting 1 year, SSL, 6 months support"
+     },
+     {
+      "@type": "Offer",
+      "name": "E-Commerce Website",
+      "category": "Website",
+      "price": "1299",
+      "priceCurrency": "MYR",
+      "description": "Unlimited products, customer accounts, FPX & card payment, order management admin, domain & hosting 1 year, SSL"
+     },
+     {
+      "@type": "Offer",
+      "name": "Website & System",
+      "category": "Website",
+      "price": "2999",
+      "priceCurrency": "MYR",
+      "description": "Login & logout, admin panel, database and custom features built for you"
+     },
+     {
+      "@type": "Offer",
+      "name": "Basic App",
+      "category": "Mobile app",
+      "price": "2999",
+      "priceCurrency": "MYR",
+      "description": "Single platform, basic features, standard UI"
+     },
+     {
+      "@type": "Offer",
+      "name": "Cross-platform App",
+      "category": "Mobile app",
+      "price": "4999",
+      "priceCurrency": "MYR",
+      "description": "iOS & Android, advanced features, API integration"
+     },
+     {
+      "@type": "Offer",
+      "name": "Premium Custom App",
+      "category": "Mobile app",
+      "price": "11999",
+      "priceCurrency": "MYR",
+      "description": "Custom development, enterprise features, full support"
+     },
+     {
+      "@type": "Offer",
+      "name": "Starter System",
+      "category": "Business system",
+      "price": "1999",
+      "priceCurrency": "MYR",
+      "description": "One workflow, like bookings or a queue, with staff login"
+     },
+     {
+      "@type": "Offer",
+      "name": "Business System",
+      "category": "Business system",
+      "price": "3999",
+      "priceCurrency": "MYR",
+      "description": "Several modules, staff and customer portals, reports"
+     },
+     {
+      "@type": "Offer",
+      "name": "Company-wide System",
+      "category": "Business system",
+      "price": "7999",
+      "priceCurrency": "MYR",
+      "description": "Roles and permissions, integrations, audit trail"
+     },
+     {
+      "@type": "Offer",
+      "name": "Prototype",
+      "category": "IoT",
+      "price": "1999",
+      "priceCurrency": "MYR",
+      "description": "One device type, from sensor to dashboard (hardware not included)"
+     },
+     {
+      "@type": "Offer",
+      "name": "Pilot",
+      "category": "IoT",
+      "price": "4999",
+      "priceCurrency": "MYR",
+      "description": "A small fleet of devices with alerts to your phone"
+     },
+     {
+      "@type": "Offer",
+      "name": "Production",
+      "category": "IoT",
+      "price": "11999",
+      "priceCurrency": "MYR",
+      "description": "Rollout-ready devices, fleet management, integrations"
+     },
+     {
+      "@type": "Offer",
+      "name": "Basic Design",
+      "category": "UI/UX design",
+      "price": "499",
+      "priceCurrency": "MYR",
+      "description": "Up to 3 pages, basic wireframes, mobile responsive"
+     },
+     {
+      "@type": "Offer",
+      "name": "Pro Design",
+      "category": "UI/UX design",
+      "price": "1499",
+      "priceCurrency": "MYR",
+      "description": "Up to 10 pages, user testing, interactive prototypes"
+     },
+     {
+      "@type": "Offer",
+      "name": "Complete Suite",
+      "category": "UI/UX design",
+      "price": "3999",
+      "priceCurrency": "MYR",
+      "description": "End-to-end design, large projects, design system"
+     }
+    ]
+   }
+  },
+  {
+   "@type": "ItemList",
+   "name": "Live demos by Shah Software Solution",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "url": "https://demo-hrms.ssoftwaresolution.com/",
+     "name": "Nusa HR (HR management system)"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "url": "https://demo-eventoperation.ssoftwaresolution.com/",
+     "name": "Stageflow (Event operation system)"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "url": "https://demo-servicequeue.ssoftwaresolution.com/",
+     "name": "Gilir (Service queue system)"
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "url": "https://demo-restaurantqueue.ssoftwaresolution.com/r/BAYU-PJ",
+     "name": "Tableline (Restaurant queue system)"
+    },
+    {
+     "@type": "ListItem",
+     "position": 5,
+     "url": "https://demo-booking.ssoftwaresolution.com/services",
+     "name": "Folk Barber (Booking system)"
+    },
+    {
+     "@type": "ListItem",
+     "position": 6,
+     "url": "https://demo-ecommerce.ssoftwaresolution.com/",
+     "name": "Sora Parfum (E-commerce store)"
+    },
+    {
+     "@type": "ListItem",
+     "position": 7,
+     "url": "https://demo-landingpage.ssoftwaresolution.com/",
+     "name": "Ruang Studio (Landing page)"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://www.ssoftwaresolution.com/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is Shah Software Solution?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Shah Software Solution is a Malaysian software development company (SSM 202403307959) that designs and builds websites, mobile apps, business systems and IoT for businesses. Website packages start from RM399 with domain, hosting and SSL included, and seven live demos show its HR, queue, booking, e-commerce and event systems."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much does a website cost?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Landing pages start from RM399, corporate websites from RM899 and e-commerce websites from RM1,299. Every website package includes a domain, 1 year of hosting and SSL."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to build a website?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A landing page can be ready in 1 day, a corporate website 1 to 2 weeks and an e-commerce website 2 to 3 weeks, once your content is ready. Apps and business systems take longer; the estimator shows a timeline for your project."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can my website be in Bahasa Melayu and English?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We build websites and systems in Bahasa Melayu, English or both, with a language switch like the one on this page."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do payments work?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You pay in three phases: 30% to start design, 40% when you approve the design and we start building, and 30% before launch. Each phase comes with a list of exactly what you get."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you build a custom system or an IoT project?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We build all types of systems: HR, queue, booking, e-commerce, event operations and IoT. Custom systems are priced by quote."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I own the source code?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Package prices are a licence to use the software for your business. The source code stays the property of Shah Software Solution, so it may not be copied, modified or resold. Your business data stays yours and can be exported. If you want to own the source code, that is priced separately and can be discussed."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you maintain the system after launch?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Maintenance and support after launch are quoted separately, based on what your system needs."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I start?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Message us on WhatsApp at +60 11-1419 6505 or email info@ssoftwaresolution.com. We will recommend a package and a payment plan."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="nav-logo">
-        <img src="images/logo-bb.png" alt="Shah Software Solution" class="logo">
-      </div>
-      <ul class="nav-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </nav>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-container">
-      <div class="hero-content">
-        <h1 class="hero-title">Crafting Digital Excellence</h1>
-        <p class="hero-subtitle">Empowering businesses to thrive in the digital era through cutting-edge technology and unparalleled customer service.</p>
-        <div class="hero-buttons">
-          <a href="#services" class="btn-primary">Explore Services</a>
-          <a href="#contact" class="btn-secondary">Get Quote</a>
-        </div>
-      </div>
-      <div class="hero-image">
-        <div class="floating-card card-1">
-          <i class="fas fa-code"></i>
-          <span>Development</span>
-        </div>
-        <div class="floating-card card-2">
-          <i class="fas fa-mobile-alt"></i>
-          <span>Mobile Apps</span>
-        </div>
-        <div class="floating-card card-3">
-          <i class="fas fa-paint-brush"></i>
-          <span>UI/UX Design</span>
-        </div>
-        <div class="hero-graphic">
-          <div class="graphic-element"></div>
-          <div class="graphic-element"></div>
-          <div class="graphic-element"></div>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- one 3D scene behind the hero and the portfolio -->
+<canvas id="gl" aria-hidden="true"></canvas>
 
-  <!-- Services Section -->
-<section id="services" class="services">
-  <div class="container">
-    <h2 class="section-title">Our Services</h2>
-    <p class="section-subtitle">Comprehensive tech solutions tailored to your needs</p>
-    
-    <!-- Website Development -->
-    <div class="service-section">
-      <div class="service-header">
-        <div class="service-icon-large">
-          <i class="fas fa-globe"></i>
-        </div>
-        <div class="service-info">
-          <h3>Website Development</h3>
-          <p>We create responsive, SEO-friendly websites tailored to your brand, ensuring an impactful online presence.</p>
-        </div>
+<header class="bar">
+  <i class="progress" aria-hidden="true"></i>
+  <div class="bar-in">
+    <a class="mark" href="#top"><img src="brand/svg/sss-logo-horizontal-color.svg" alt="Shah Software Solution" width="220" height="40"></a>
+    <nav class="links" id="links" aria-label="Main">
+      <a href="#services"><i aria-hidden="true">01</i><span data-i18n="nav.services">Services</span></a>
+      <a href="#work"><i aria-hidden="true">02</i><span data-i18n="nav.work">Work</span></a>
+      <a href="#pricing"><i aria-hidden="true">03</i><span data-i18n="nav.pricing">Pricing</span></a>
+      <a href="#faq"><i aria-hidden="true">04</i><span data-i18n="nav.faq">FAQ</span></a>
+      <a href="#contact"><i aria-hidden="true">05</i><span data-i18n="nav.contact">Contact</span></a>
+    </nav>
+    <div class="bar-end">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ms" aria-pressed="false">BM</button>
       </div>
-      
-      <div class="pricing-cards">
-        <div class="pricing-card basic">
-          <div class="card-header">
-            <h4>Static Website</h4>
-          </div>
-          <div class="card-features">
-            <div class="feature"><i class="fas fa-check"></i> <span>Responsive Design</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Basic SEO Setup</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Contact Forms</span></div>
-          </div>
-        </div>
-        
-        <div class="pricing-card popular">
-          <div class="popular-badge">Most Popular</div>
-          <div class="card-header">
-            <h4>Mid-Level Website</h4>
-          </div>
-          <div class="card-features">
-            <div class="feature"><i class="fas fa-check"></i> <span>Dynamic Content</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Admin Panel</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Database Integration</span></div>
-          </div>
-        </div>
-        
-        <div class="pricing-card premium">
-          <div class="card-header">
-            <h4>Full Website & System</h4>
-          </div>
-          <div class="card-features">
-            <div class="feature"><i class="fas fa-check"></i> <span>Custom Development</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Advanced Features</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Full System Integration</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Mobile App Development -->
-    <div class="service-section">
-      <div class="service-header">
-        <div class="service-icon-large">
-          <i class="fas fa-mobile-alt"></i>
-        </div>
-        <div class="service-info">
-          <h3>Mobile App Development</h3>
-          <p>Build native and hybrid apps to enhance user engagement and streamline business operations.</p>
-        </div>
-      </div>
-      
-      <div class="pricing-cards">
-        <div class="pricing-card basic">
-          <div class="card-header">
-            <h4>Basic App</h4>
-          </div>
-          <div class="card-features">
-            <div class="feature"><i class="fas fa-check"></i> <span>Single Platform</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Basic Features</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Standard UI</span></div>
-          </div>
-        </div>
-        
-        <div class="pricing-card popular">
-          <div class="popular-badge">Recommended</div>
-          <div class="card-header">
-            <h4>Cross-platform App</h4>
-          </div>
-          <div class="card-features">
-            <div class="feature"><i class="fas fa-check"></i> <span>iOS & Android</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Advanced Features</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>API Integration</span></div>
-          </div>
-        </div>
-        
-        <div class="pricing-card premium">
-          <div class="card-header">
-            <h4>Premium Custom App</h4>
-          </div>
-          <div class="card-features">
-            <div class="feature"><i class="fas fa-check"></i> <span>Custom Development</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Enterprise Features</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Full Support</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- UI/UX Design -->
-    <div class="service-section">
-      <div class="service-header">
-        <div class="service-icon-large">
-          <i class="fas fa-paint-brush"></i>
-        </div>
-        <div class="service-info">
-          <h3>UI/UX Design</h3>
-          <p>Design intuitive user experiences that captivate and retain customers while enhancing usability.</p>
-        </div>
-      </div>
-      
-      <div class="pricing-cards">
-        <div class="pricing-card basic">
-          <div class="card-header">
-            <h4>Basic Design</h4>
-          </div>
-          <div class="card-features">
-            <div class="feature"><i class="fas fa-check"></i> <span>Up to 3 pages</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Basic Wireframes</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Mobile Responsive</span></div>
-          </div>
-        </div>
-        
-        <div class="pricing-card popular">
-          <div class="popular-badge">Best Value</div>
-          <div class="card-header">
-            <h4>Pro Design</h4>
-          </div>
-          <div class="card-features">
-            <div class="feature"><i class="fas fa-check"></i> <span>Up to 10 pages</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>User Testing</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Interactive Prototypes</span></div>
-          </div>
-        </div>
-        
-        <div class="pricing-card premium">
-          <div class="card-header">
-            <h4>Complete Suite</h4>
-          </div>
-          <div class="card-features">
-            <div class="feature"><i class="fas fa-check"></i> <span>End-to-end design</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Large projects</span></div>
-            <div class="feature"><i class="fas fa-check"></i> <span>Design System</span></div>
-          </div>
-        </div>
-      </div>
+      <a class="btn btn-dark btn-sm" href="https://wa.me/601114196505" target="_blank" rel="noopener" data-wa="hello"><span data-i18n="nav.wa">WhatsApp us</span> <span class="arr" aria-hidden="true">›</span></a>
+      <button class="menu" type="button" aria-expanded="false" aria-controls="links" aria-label="Menu"><i></i><i></i></button>
     </div>
   </div>
-</section>
-  <section>
-      <!-- Payment Plans -->
-      <div class="payment-section">
-        <h3>Flexible Payment Plans</h3>
-        <p>We understand that every business is different — and that includes your budgeting needs.</p>
-        
-        <div class="payment-features">
-          <div class="payment-feature">
-            <i class="fas fa-calendar-alt"></i>
-            <h4>Monthly & Yearly Installments</h4>
-            <p>Spread your payments comfortably with our structured plans. Whether short-term or long-term, we've got options to suit your cash flow.</p>
-          </div>
-          
-          <div class="payment-feature">
-            <i class="fas fa-clock"></i>
-            <h4>Custom Plan Duration</h4>
-            <p>Choose from various durations — from just a few months to up to 7 years — all designed to ease your financial commitment.</p>
-          </div>
-          
-          <div class="payment-feature">
-            <i class="fas fa-tools"></i>
-            <h4>Maintenance Options</h4>
-            <p>Plans can include ongoing maintenance and support, so you get peace of mind knowing your solution is always performing at its best.</p>
-          </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO: blocks assemble as you scroll -->
+  <section class="hero" id="top" aria-labelledby="hero-h">
+    <div class="stage">
+      <div class="hud hud-tr">
+        <p class="hud-k">////// <span data-i18n="hud.manifesto">Manifesto</span></p>
+        <p data-i18n="hud.m">We build the software Malaysian businesses run on: websites, apps, systems and connected devices. Clear prices, built block by block.</p>
+      </div>
+
+      <div class="hero-copy">
+        <p class="hud-k">// <span data-i18n="hero.eye">Software development studio in Malaysia</span></p>
+        <h1 id="hero-h" data-i18n="hero.h">Your business. Built block by block.</h1>
+        <p class="lede" data-i18n="hero.p">Websites, mobile apps, business systems and IoT for Malaysian businesses. Landing pages from RM399, with domain, hosting and SSL included.</p>
+        <div class="hero-cta">
+          <a class="btn btn-dark" href="#pricing"><span data-i18n="hero.cta1">Estimate my project</span> <span class="arr" aria-hidden="true">›</span></a>
+          <a class="btn btn-ghost" href="#work"><span data-i18n="hero.cta2">See live demos</span> <span class="arr" aria-hidden="true">›</span></a>
         </div>
-        
-        <div class="cta-section">
-          <p>Ready to get started? Contact us today to discuss a plan that works for you.</p>
-          <a href="#contact" class="btn-primary">Get Custom Quote</a>
+      </div>
+
+      <!-- labels pinned to blocks in the 3D scene -->
+      <svg class="leads" id="leads" aria-hidden="true"></svg>
+      <ul class="callouts" id="callouts" aria-label="What we build">
+        <li data-b="0"><b>01</b><span data-i18n="line.web">Websites</span></li>
+        <li data-b="1"><b>02</b><span data-i18n="line.app">Mobile apps</span></li>
+        <li data-b="2"><b>03</b><span data-i18n="line.sys">Business systems</span></li>
+        <li data-b="3"><b>04</b><span>IoT</span></li>
+        <li data-b="4"><b>05</b><span data-i18n="line.ux">UI/UX design</span></li>
+      </ul>
+
+      <div class="hud hud-bl">
+        <p><span data-i18n="hud.scroll">Scroll to build</span> <span class="hud-arrow" aria-hidden="true">↓</span></p>
+        <p class="hud-k"><span data-i18n="hud.build">Build</span> <b id="build-pct">000</b>%</p>
+      </div>
+      <div class="hud hud-br">
+        <p class="hud-k">SSM 202403307959</p>
+        <p class="hud-k">© <span class="yr">2026</span> Shah Software Solution</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK: each demo frozen in a block of ice -->
+  <section class="work" id="work" aria-labelledby="work-h">
+    <div class="wrap work-head">
+      <p class="hud-k">////// <span data-i18n="work.k">Portfolio</span></p>
+      <h2 id="work-h" data-i18n="work.h">Real systems, running today</h2>
+      <p data-i18n="work.p">Seven working demos you can open and use right now.</p>
+      <a class="hud-link" href="work.html"><span data-i18n="work.more">View the full showcase</span> <span aria-hidden="true">→</span></a>
+    </div>
+    <ol class="ice-steps" id="projects">
+      <li class="ice-step" id="w-hrms" data-i="0">
+        <a class="ice-shot" href="https://demo-hrms.ssoftwaresolution.com/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><span class="shot-bar"><i></i><i></i><i></i><span>demo-hrms.ssoftwaresolution.com</span></span><img src="images/work/hrms-desk.webp" width="1200" height="750" loading="lazy" alt="Nusa HR hr system demo"></a>
+        <div class="ice-card">
+          <p class="hud-k">PORTFOLIO_01 <span>/ 07</span></p>
+          <h3>Nusa HR</h3>
+          <p class="ice-kind">HR system</p>
+          <p>Attendance, leave, claims and payroll in one place, from clock-in to payslip.</p>
+          <a class="hud-link" href="https://demo-hrms.ssoftwaresolution.com/" target="_blank" rel="noopener">Click to explore <span aria-hidden="true">↗</span></a>
+        </div>
+      </li>
+      <li class="ice-step" id="w-eventoperation" data-i="1">
+        <a class="ice-shot" href="https://demo-eventoperation.ssoftwaresolution.com/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><span class="shot-bar"><i></i><i></i><i></i><span>demo-eventoperation.ssoftwaresolution.com</span></span><img src="images/work/eventoperation-desk.webp" width="1200" height="750" loading="lazy" alt="Stageflow event operations demo"></a>
+        <div class="ice-card">
+          <p class="hud-k">PORTFOLIO_02 <span>/ 07</span></p>
+          <h3>Stageflow</h3>
+          <p class="ice-kind">Event operations</p>
+          <p>Plan tasks, vendors, budget and staff, then run event day from a live control room.</p>
+          <a class="hud-link" href="https://demo-eventoperation.ssoftwaresolution.com/" target="_blank" rel="noopener">Click to explore <span aria-hidden="true">↗</span></a>
+        </div>
+      </li>
+      <li class="ice-step" id="w-servicequeue" data-i="2">
+        <a class="ice-shot" href="https://demo-servicequeue.ssoftwaresolution.com/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><span class="shot-bar"><i></i><i></i><i></i><span>demo-servicequeue.ssoftwaresolution.com</span></span><img src="images/work/servicequeue-desk.webp" width="1200" height="750" loading="lazy" alt="Gilir service queue demo"></a>
+        <div class="ice-card">
+          <p class="hud-k">PORTFOLIO_03 <span>/ 07</span></p>
+          <h3>Gilir</h3>
+          <p class="ice-kind">Service queue</p>
+          <p>Customers take a number from their phone and see their place in line.</p>
+          <a class="hud-link" href="https://demo-servicequeue.ssoftwaresolution.com/" target="_blank" rel="noopener">Click to explore <span aria-hidden="true">↗</span></a>
+        </div>
+      </li>
+      <li class="ice-step" id="w-restaurantqueue" data-i="3">
+        <a class="ice-shot" href="https://demo-restaurantqueue.ssoftwaresolution.com/r/BAYU-PJ" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><span class="shot-bar"><i></i><i></i><i></i><span>demo-restaurantqueue.ssoftwaresolution.com/r/BAYU-PJ</span></span><img src="images/work/restaurantqueue-desk.webp" width="1200" height="750" loading="lazy" alt="Tableline restaurant waitlist demo"></a>
+        <div class="ice-card">
+          <p class="hud-k">PORTFOLIO_04 <span>/ 07</span></p>
+          <h3>Tableline</h3>
+          <p class="ice-kind">Restaurant waitlist</p>
+          <p>Diners join the waitlist from the board and get told when their table is ready.</p>
+          <a class="hud-link" href="https://demo-restaurantqueue.ssoftwaresolution.com/r/BAYU-PJ" target="_blank" rel="noopener">Click to explore <span aria-hidden="true">↗</span></a>
+        </div>
+      </li>
+      <li class="ice-step" id="w-booking" data-i="4">
+        <a class="ice-shot" href="https://demo-booking.ssoftwaresolution.com/services" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><span class="shot-bar"><i></i><i></i><i></i><span>demo-booking.ssoftwaresolution.com/services</span></span><img src="images/work/booking-desk.webp" width="1200" height="750" loading="lazy" alt="Folk Barber booking system demo"></a>
+        <div class="ice-card">
+          <p class="hud-k">PORTFOLIO_05 <span>/ 07</span></p>
+          <h3>Folk Barber</h3>
+          <p class="ice-kind">Booking system</p>
+          <p>Choose a service, a barber and a time, then track the booking.</p>
+          <a class="hud-link" href="https://demo-booking.ssoftwaresolution.com/services" target="_blank" rel="noopener">Click to explore <span aria-hidden="true">↗</span></a>
+        </div>
+      </li>
+      <li class="ice-step" id="w-ecommerce" data-i="5">
+        <a class="ice-shot" href="https://demo-ecommerce.ssoftwaresolution.com/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><span class="shot-bar"><i></i><i></i><i></i><span>demo-ecommerce.ssoftwaresolution.com</span></span><img src="images/work/ecommerce-desk.webp" width="1200" height="750" loading="lazy" alt="Sora Parfum online store demo"></a>
+        <div class="ice-card">
+          <p class="hud-k">PORTFOLIO_06 <span>/ 07</span></p>
+          <h3>Sora Parfum</h3>
+          <p class="ice-kind">Online store</p>
+          <p>A perfume shop with product pages, bag and checkout.</p>
+          <a class="hud-link" href="https://demo-ecommerce.ssoftwaresolution.com/" target="_blank" rel="noopener">Click to explore <span aria-hidden="true">↗</span></a>
+        </div>
+      </li>
+      <li class="ice-step" id="w-landingpage" data-i="6">
+        <a class="ice-shot" href="https://demo-landingpage.ssoftwaresolution.com/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><span class="shot-bar"><i></i><i></i><i></i><span>demo-landingpage.ssoftwaresolution.com</span></span><img src="images/work/landingpage-desk.webp" width="1200" height="750" loading="lazy" alt="Ruang Studio landing page demo"></a>
+        <div class="ice-card">
+          <p class="hud-k">PORTFOLIO_07 <span>/ 07</span></p>
+          <h3>Ruang Studio</h3>
+          <p class="ice-kind">Landing page</p>
+          <p>An interior design studio site built to get consultation bookings.</p>
+          <a class="hud-link" href="https://demo-landingpage.ssoftwaresolution.com/" target="_blank" rel="noopener">Click to explore <span aria-hidden="true">↗</span></a>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="sec" id="services" aria-labelledby="svc-h">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <p class="hud-k">////// <span data-i18n="nav.services">Services</span></p>
+        <h2 id="svc-h" data-i18n="svc.h">Everything your business needs to go digital</h2>
+        <p data-i18n="svc.p">One team for your website, app, internal systems and connected devices. Pick a service to see what's included.</p>
+      </div>
+      <div class="explorer rv">
+        <div class="tree" role="tablist" aria-label="Services" aria-orientation="vertical" id="tree"></div>
+        <div class="pane" id="pane" role="tabpanel" tabindex="0"><section class="svc-static"><h3>Websites</h3><p class="desc">Company sites, landing pages and online shops that work on any phone and are set up to be found on Google.</p><ul><li>Landing page from RM399, corporate site from RM899, online shop from RM1,299</li><li>Domain, hosting (1 year) and SSL included</li><li>Responsive design and SEO setup</li><li>Admin panel and custom features on Website &amp; System</li></ul></section><section class="svc-static"><h3>Mobile apps</h3><p class="desc">Apps for Android and iOS, from a simple first version to a cross-platform app with analytics.</p><ul><li>Single platform on Basic App</li><li>iOS and Android on Cross-platform</li><li>API integration</li><li>Full support on Premium Custom</li></ul></section><section class="svc-static"><h3>Business systems</h3><p class="desc">Custom software for how your company runs: HR, queues, bookings, event operations, inventory.</p><ul><li>Built around your workflow</li><li>Staff and customer portals</li><li>Works on phone and desktop</li><li>See the live demos above</li></ul></section><section class="svc-static"><h3>IoT</h3><p class="desc">Connected devices and the dashboards that read them: sensors, counters, displays and alerts.</p><ul><li>Device to cloud</li><li>Live dashboards</li><li>Alerts to phone</li><li>Integration with your system</li></ul></section><section class="svc-static"><h3>UI/UX design</h3><p class="desc">Screens your customers understand at first look, from three key pages to a full product.</p><ul><li>Up to 3 pages on Basic</li><li>User testing and prototypes on Pro</li><li>Design system on Complete Suite</li><li>Design files you keep</li></ul></section></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRY IT: live builder -->
+  <section class="sec tryit" id="try" aria-labelledby="try-h">
+    <div class="wrap hero-grid">
+      <div class="try-copy rv">
+        <p class="hud-k">////// <span data-i18n="try.k">Try it</span></p>
+        <h2 id="try-h" data-i18n="try.h">Type your business name. Watch it get built.</h2>
+        <p data-i18n="try.p">Pick your type of business and see a first draft of your site, with the code that builds it. Your real one is designed around you.</p>
+      </div>
+      <div class="hero-visual rv">
+        <p class="try" data-i18n="hero.try">Try it: type your business name</p>
+        <div class="ide" id="builder">
+          <div class="ide-top">
+            <label class="name-field">
+              <span class="sr" data-i18n="hero.label">Business name</span>
+              <input id="biz" type="text" maxlength="28" value="Kopi Ah Seng" autocomplete="organization" spellcheck="false">
+            </label>
+            <div class="kinds" role="radiogroup" aria-label="Type of business" id="kinds">
+              <button type="button" role="radio" aria-checked="true" data-kind="cafe" data-i18n="kind.cafe">Café</button>
+              <button type="button" role="radio" aria-checked="false" data-kind="clinic" data-i18n="kind.clinic">Clinic</button>
+              <button type="button" role="radio" aria-checked="false" data-kind="shop" data-i18n="kind.shop">Shop</button>
+              <button type="button" role="radio" aria-checked="false" data-kind="salon" data-i18n="kind.salon">Salon</button>
+              <button type="button" role="radio" aria-checked="false" data-kind="startup" data-i18n="kind.startup">Startup</button>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="url"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 7V5a3 3 0 0 1 6 0v2M4 7h8v6H4z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span id="url">kopiahseng.com.my</span></div>
+            <div class="site" id="site" aria-live="polite"></div>
+          </div>
+          <a class="build" id="build-wa" href="https://wa.me/601114196505" target="_blank" rel="noopener"><span data-i18n="hero.cta">Build this for real</span> <span class="arr" aria-hidden="true">›</span></a>
+        </div>
+        <div class="code-card" aria-hidden="true">
+          <div class="tab"><span id="file">kopiahseng/index.html</span></div>
+          <pre><code id="code"></code></pre>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="container">
-      <div class="about-content">
-        <div class="about-text">
-          <h2>About Shah Software Solution</h2>
-          <p>We are not just another IT company. We are a dynamic and innovative tech startup dedicated to crafting intelligent, scalable, and user-centric solutions.</p>
-          
-          <div class="mission-vision">
-            <div class="mv-item">
-              <h3>Our Mission</h3>
-              <p>Empowering businesses to thrive in the digital era through cutting-edge technology and unparalleled customer service.</p>
-            </div>
-            <div class="mv-item">
-              <h3>Our Vision</h3>
-              <p>To become a global leader in IT innovation, creating solutions that transform industries and enrich lives.</p>
-            </div>
-          </div>
+  <!-- HOW IT WORKS -->
+  <section class="sec steps-sec" id="process" aria-labelledby="steps-h">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <p class="hud-k">////// <span data-i18n="steps.k">Process</span></p>
+        <h2 id="steps-h" data-i18n="pipe.h">From first message to launch</h2>
+        <p data-i18n="steps.p">A clear process, and you know the plan before anything is built.</p>
+      </div>
+      <ol class="steps">
+        <li class="rv"><span class="step-n">1</span><h3 data-i18n="pipe.s0">Design</h3><p data-i18n="pipe.s0p">We sketch the pages and agree the look with you before any code is written.</p></li>
+        <li class="rv"><span class="step-n">2</span><h3 data-i18n="pipe.s1">Build</h3><p data-i18n="pipe.s1p">We code it for phones and desktops and connect what it needs: payments, bookings, databases, devices.</p></li>
+        <li class="rv"><span class="step-n">3</span><h3 data-i18n="pipe.s2">Test</h3><p data-i18n="pipe.s2p">We check it on real phones and browsers and fix what breaks before you see it.</p></li>
+        <li class="rv"><span class="step-n">4</span><h3 data-i18n="pipe.s3">Launch</h3><p data-i18n="pipe.s3p">We put it live on your domain. With a maintenance plan, updates and fixes stay covered.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PRICING: estimator -->
+  <section class="sec dark" id="pricing" aria-labelledby="price-h">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <p class="hud-k">////// <span data-i18n="nav.pricing">Pricing</span></p>
+        <h2 id="price-h" data-i18n="price.h">Know the cost before we write a line of code.</h2>
+        <p data-i18n="price.p">Pick what you want built and the features it needs. You get an estimated build cost, a timeline, and what you pay in each of the three phases.</p>
+      </div>
+      <div class="pkg-wrap rv">
+        <p class="pkg-cap" data-i18n="pkg.cap2">Packages and starting prices</p>
+        <div class="seg pkg-tabs" role="tablist" aria-label="Package type" id="pkg-tabs"><button type="button" role="tab" aria-selected="true" data-svc="web">Website</button><button type="button" role="tab" aria-selected="false" data-svc="app">Mobile app</button><button type="button" role="tab" aria-selected="false" data-svc="sys">Business system</button><button type="button" role="tab" aria-selected="false" data-svc="iot">IoT</button><button type="button" role="tab" aria-selected="false" data-svc="ux">UI/UX design</button></div>
+        <div id="pkg-panels">
+          <div class="pk-panel on" data-svc="web" role="tabpanel"><h3 class="sr">Website</h3><div class="pk-guide"><div><p class="pk-k">Why prices differ</p><p>Prices differ by how many pages the site has and whether it only shows information or also takes orders, payments or logins. More of that means more to build, test and support.</p></div><div><p class="pk-k">How to choose</p><p>Only need people to find you and contact you? Landing Page. Need several pages about your company and services? Corporate Website. Want to sell and take payment online? E-Commerce. Need members or staff to log in? Website &amp; System.</p></div></div><div class="pk-grid"><article class="pk"><p class="pk-size">Small</p><h4>Landing Page</h4><p class="pk-price">RM 399 <span>· 1 day</span></p><p class="pk-what">1 page, domain &amp; hosting 1 year, SSL, basic SEO, 3 months support</p><ul class="pk-pros" aria-label="Pros"><li>Lowest price, can go live in 1 day</li><li>One clear message that drives WhatsApp enquiries</li></ul><ul class="pk-cons" aria-label="Cons"><li>Only one page, so little room for detail</li><li>No online orders, payments or login</li></ul></article><article class="pk"><p class="pk-size">Medium</p><h4>Corporate Website</h4><p class="pk-price">RM 899 <span>· 1 to 2 weeks</span></p><p class="pk-what">5 to 7 pages, contact form &amp; Google Map, SEO, domain &amp; hosting 1 year, SSL, 6 months support</p><ul class="pk-pros" aria-label="Pros"><li>Room to explain your company, services and team</li><li>More pages help you show up on Google</li></ul><ul class="pk-cons" aria-label="Cons"><li>Information only, no online sales</li><li>Text and photos need to come from you</li></ul></article><article class="pk"><p class="pk-size">Large</p><h4>E-Commerce Website</h4><p class="pk-price">RM 1,299 <span>· 2 to 3 weeks</span></p><p class="pk-what">Unlimited products, customer accounts, FPX &amp; card payment, order management admin, domain &amp; hosting 1 year, SSL</p><ul class="pk-pros" aria-label="Pros"><li>Sell around the clock with FPX and card payment</li><li>Order management to track every sale</li></ul><ul class="pk-cons" aria-label="Cons"><li>Product photos and stock must be kept up to date</li><li>Payment gateways charge a small fee per sale</li></ul></article><article class="pk"><p class="pk-size">Custom</p><h4>Website &amp; System</h4><p class="pk-price">RM 2,999 <span>· 3 to 6 weeks</span></p><p class="pk-what">Login &amp; logout, admin panel, database and custom features built for you</p><ul class="pk-pros" aria-label="Pros"><li>Login, admin panel and features built around your process</li><li>Can grow into a full system later</li></ul><ul class="pk-cons" aria-label="Cons"><li>Higher price and a longer build</li><li>Needs clear requirements before we start</li></ul></article></div></div>
+          <div class="pk-panel" data-svc="app" role="tabpanel"><h3 class="sr">Mobile app</h3><div class="pk-guide"><div><p class="pk-k">Why prices differ</p><p>Prices differ by how many platforms the app runs on (Android, iPhone or both), how many types of users it has and how many systems it connects to.</p></div><div><p class="pk-k">How to choose</p><p>Testing an idea with a small group? Basic App. Customers use both Android and iPhone? Cross-platform App. Several user types such as customers, staff and riders, plus integrations? Premium Custom App.</p></div></div><div class="pk-grid"><article class="pk"><p class="pk-size">Small</p><h4>Basic App</h4><p class="pk-price">RM 2,999 <span>· 2 to 4 weeks</span></p><p class="pk-what">Single platform, basic features, standard UI</p><ul class="pk-pros" aria-label="Pros"><li>Lowest-cost way to get your own app</li><li>Quick to put in front of real users</li></ul><ul class="pk-cons" aria-label="Cons"><li>One platform only, Android or iPhone</li><li>Basic features and a standard design</li></ul></article><article class="pk"><p class="pk-size">Medium</p><h4>Cross-platform App</h4><p class="pk-price">RM 4,999 <span>· 3 to 6 weeks</span></p><p class="pk-what">iOS &amp; Android, advanced features, API integration</p><ul class="pk-pros" aria-label="Pros"><li>One app for both Android and iPhone</li><li>Connects to your website or system</li></ul><ul class="pk-cons" aria-label="Cons"><li>Costs more than Basic</li><li>App store reviews add a few days to each release</li></ul></article><article class="pk"><p class="pk-size">Large</p><h4>Premium Custom App</h4><p class="pk-price">RM 11,999 <span>· 6 to 12 weeks</span></p><p class="pk-what">Custom development, enterprise features, full support</p><ul class="pk-pros" aria-label="Pros"><li>Built for many user types and heavy use</li><li>Full support after launch</li></ul><ul class="pk-cons" aria-label="Cons"><li>Highest cost and the longest build</li><li>Needs a budget for ongoing maintenance</li></ul></article></div></div>
+          <div class="pk-panel" data-svc="sys" role="tabpanel"><h3 class="sr">Business system</h3><div class="pk-guide"><div><p class="pk-k">Why prices differ</p><p>Prices differ by how many processes (modules) the system covers, how many users and branches use it, and whether it needs roles, approvals or links to other software.</p></div><div><p class="pk-k">How to choose</p><p>One process in one place, like bookings or a queue? Starter System. Several departments such as HR, stock and reports? Business System. Many branches or 50+ staff with roles and approvals? Company-wide System.</p></div></div><div class="pk-grid"><article class="pk"><p class="pk-size">Small</p><h4>Starter System</h4><p class="pk-price">RM 1,999 <span>· 1 to 3 weeks</span></p><p class="pk-what">One workflow, like bookings or a queue, with staff login</p><ul class="pk-pros" aria-label="Pros"><li>Low cost, live in 1 to 3 weeks</li><li>Solves your biggest problem first</li></ul><ul class="pk-cons" aria-label="Cons"><li>One workflow only</li><li>Each extra module is added later at extra cost</li></ul></article><article class="pk"><p class="pk-size">Medium</p><h4>Business System</h4><p class="pk-price">RM 3,999 <span>· 3 to 6 weeks</span></p><p class="pk-what">Several modules, staff and customer portals, reports</p><ul class="pk-pros" aria-label="Pros"><li>Modules share one database, so nothing is entered twice</li><li>Staff and customer portals with reports</li></ul><ul class="pk-cons" aria-label="Cons"><li>Takes 3 to 6 weeks</li><li>Staff need a little training to switch over</li></ul></article><article class="pk"><p class="pk-size">Large</p><h4>Company-wide System</h4><p class="pk-price">RM 7,999 <span>· 6 to 12 weeks</span></p><p class="pk-what">Roles and permissions, integrations, audit trail</p><ul class="pk-pros" aria-label="Pros"><li>Every branch and department on one system</li><li>Roles, approvals and an audit trail for control</li></ul><ul class="pk-cons" aria-label="Cons"><li>Highest cost, 6 to 12 weeks</li><li>Needs one person in charge on your side</li></ul></article></div></div>
+          <div class="pk-panel" data-svc="iot" role="tabpanel"><h3 class="sr">IoT</h3><div class="pk-guide"><div><p class="pk-k">Why prices differ</p><p>Prices differ by the number of devices, how many sites they are installed at, and how they are managed and connected. Hardware is priced separately.</p></div><div><p class="pk-k">How to choose</p><p>Proving an idea with one or a few devices? Prototype. One site with tens of devices and phone alerts? Pilot. Many sites that need device management? Production.</p></div></div><div class="pk-grid"><article class="pk"><p class="pk-size">Small</p><h4>Prototype</h4><p class="pk-price">RM 1,999 <span>· 2 to 3 weeks</span></p><p class="pk-what">One device type, from sensor to dashboard (hardware not included)</p><ul class="pk-pros" aria-label="Pros"><li>Test the idea before spending big</li><li>Live dashboard from day one</li></ul><ul class="pk-cons" aria-label="Cons"><li>A few devices at one site</li><li>Not built for a full rollout yet</li></ul></article><article class="pk"><p class="pk-size">Medium</p><h4>Pilot</h4><p class="pk-price">RM 4,999 <span>· 3 to 6 weeks</span></p><p class="pk-what">A small fleet of devices with alerts to your phone</p><ul class="pk-pros" aria-label="Pros"><li>Real use at one site, with alerts to your phone</li><li>Shows the savings before a bigger rollout</li></ul><ul class="pk-cons" aria-label="Cons"><li>Hardware is priced separately</li><li>Covers one site only</li></ul></article><article class="pk"><p class="pk-size">Large</p><h4>Production</h4><p class="pk-price">RM 11,999 <span>· 6 to 12 weeks</span></p><p class="pk-what">Rollout-ready devices, fleet management, integrations</p><ul class="pk-pros" aria-label="Pros"><li>Many sites, with device management</li><li>Connects to your other systems</li></ul><ul class="pk-cons" aria-label="Cons"><li>Highest cost and the longest setup</li><li>Needs on-site installation and upkeep</li></ul></article></div></div>
+          <div class="pk-panel" data-svc="ux" role="tabpanel"><h3 class="sr">UI/UX design</h3><div class="pk-guide"><div><p class="pk-k">Why prices differ</p><p>Prices differ by how many screens are designed, and whether they are tested with real users and turned into a design system.</p></div><div><p class="pk-k">How to choose</p><p>Need a few key screens to show investors or a developer? Basic Design. Designing a whole website or app? Pro Design. A large product with a team building it? Complete Suite.</p></div></div><div class="pk-grid"><article class="pk"><p class="pk-size">Small</p><h4>Basic Design</h4><p class="pk-price">RM 499 <span>· 1 week</span></p><p class="pk-what">Up to 3 pages, basic wireframes, mobile responsive</p><ul class="pk-pros" aria-label="Pros"><li>Low cost, ready in about a week</li><li>See your idea before paying to build it</li></ul><ul class="pk-cons" aria-label="Cons"><li>Up to 3 pages only</li><li>No user testing</li></ul></article><article class="pk"><p class="pk-size">Medium</p><h4>Pro Design</h4><p class="pk-price">RM 1,499 <span>· 1 to 2 weeks</span></p><p class="pk-what">Up to 10 pages, user testing, interactive prototypes</p><ul class="pk-pros" aria-label="Pros"><li>Up to 10 pages with clickable prototypes</li><li>Tested with real users before you build</li></ul><ul class="pk-cons" aria-label="Cons"><li>Design only, building is separate</li><li>Takes 1 to 2 weeks</li></ul></article><article class="pk"><p class="pk-size">Large</p><h4>Complete Suite</h4><p class="pk-price">RM 3,999 <span>· 3 to 5 weeks</span></p><p class="pk-what">End-to-end design, large projects, design system</p><ul class="pk-pros" aria-label="Pros"><li>A design system keeps every screen consistent</li><li>Ready for a team of developers</li></ul><ul class="pk-cons" aria-label="Cons"><li>Highest design cost</li><li>Only worth it for larger products</li></ul></article></div></div>
         </div>
-        
-        <div class="values">
-          <h3>Our Values</h3>
-          <div class="values-grid">
-            <div class="value-item">
-              <span class="value-emoji">💡</span>
-              <span>Innovation</span>
+        <p class="pkg-note" data-i18n="pkg.note2">Website packages include a domain, 1 year of hosting and SSL. Add-on features from RM300 each. Use the estimator below for the exact range for your project.</p>
+        <p class="pkg-lic" data-i18n="pkg.lic">All prices are for a licence to use the software for your business. The source code stays the property of Shah Software Solution: it may not be copied, modified or resold. Owning the source code is priced separately.</p>
+      </div>
+      <div class="planner rv">
+        <div class="pkgs">
+          <div class="idea">
+            <p class="step-k"><span>1</span> <span data-i18n="est.idea">Describe the system you want</span></p>
+            <label class="sr" for="idea" data-i18n="est.idea">Describe the system you want</label>
+            <textarea id="idea" rows="4" maxlength="1500" data-i18n-ph="est.ph" placeholder="Example: A booking system for my 3 barber shops. Customers book online and pay a deposit, staff log in to see their schedule, and I want a monthly sales report. In English and BM."></textarea>
+            <div class="idea-row">
+              <button type="button" class="btn btn-sky" id="analyse"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5l1.6 4.2 4.4 1.3-4.4 1.3L8 12.5 6.4 8.3 2 7l4.4-1.3z"/></svg><span id="analyse-l">Work out my estimate</span></button>
+              <span class="idea-hint" data-i18n="est.hint">We fill in the options below from your description. You can still change anything.</span>
             </div>
-            <div class="value-item">
-              <span class="value-emoji">🤝</span>
-              <span>Collaboration</span>
-            </div>
-            <div class="value-item">
-              <span class="value-emoji">🌍</span>
-              <span>Integrity</span>
-            </div>
-            <div class="value-item">
-              <span class="value-emoji">🚀</span>
-              <span>Excellence</span>
-            </div>
+            <div class="idea-out" id="idea-out" aria-live="polite" hidden></div>
           </div>
+          <p class="step-k"><span>2</span> <span data-i18n="est.what">What are we building?</span></p>
+          <div class="seg" role="tablist" aria-label="Project type" id="seg">
+            <button role="tab" aria-selected="true" data-svc="web" data-i18n="svc.web">Website</button>
+            <button role="tab" aria-selected="false" data-svc="app" data-i18n="svc.app">Mobile app</button>
+            <button role="tab" aria-selected="false" data-svc="sys" data-i18n="svc.sys">Business system</button>
+            <button role="tab" aria-selected="false" data-svc="iot" data-i18n="svc.iot">IoT</button>
+            <button role="tab" aria-selected="false" data-svc="ux" data-i18n="svc.ux">UI/UX design</button>
+          </div>
+          <div class="tiers" id="tiers" role="radiogroup" aria-label="Size"></div>
+          <div id="look-wrap">
+            <p class="step-k"><span>3</span> <span data-i18n="est.look">How should it look?</span></p>
+            <div class="looks" id="looks" role="radiogroup" aria-label="Design style"></div>
+          </div>
+          <div id="feat-wrap">
+            <p class="step-k"><span>4</span> <span data-i18n="est.feat">Add the features you need</span></p>
+            <div class="feats" id="feats" role="group" aria-label="Features"></div>
+          </div>
+          <a class="mini" href="#est-sum" aria-hidden="true" tabindex="-1"><span data-i18n="est.k">Estimated build cost</span><b id="mini-v"></b></a>
+        </div>
+        <div class="sum" id="est-sum" aria-live="polite">
+          <p class="sum-k" data-i18n="est.k">Estimated build cost</p>
+          <p class="sum-pkg" id="sum-pkg">Corporate Website</p>
+          <p class="cost" id="c-est">RM 1,249</p>
+          <p class="est-k" id="est-k">Typical price for this setup</p>
+          <div class="rangebar" aria-hidden="true"><div class="rb-track"><i class="rb-band" id="rb-band"></i><b class="rb-dot" id="rb-dot"></b></div></div>
+          <div class="rb-l"><span><span data-i18n="est.min">Minimum</span> <b id="c-lo">RM 899</b></span><span><span data-i18n="est.max">Maximum</span> <b id="c-hi">RM 1,799</b></span></div>
+          <p class="weeks"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5"/><path d="M8 4.5V8l2.5 1.5"/></svg><span id="weeks">About 1 to 2 weeks</span></p>
+          <p class="ready" id="ready"></p>
+          <div class="ph-stack" aria-hidden="true"><i></i><i></i><i></i></div>
+          <ol class="phases" id="phases">
+            <li><b data-i18n="ph.1">Design &amp; plan</b><small><span data-i18n="ph.1d">30% to start</span> · <span class="ph-wk" id="wk-0"></span></small><span class="ph-amt" id="ph-0"></span></li>
+            <li><b data-i18n="ph.2">Build</b><small><span data-i18n="ph.2d">40% after you approve the design</span> · <span class="ph-wk" id="wk-1"></span></small><span class="ph-amt" id="ph-1"></span></li>
+            <li><b data-i18n="ph.3">Test &amp; launch</b><small><span data-i18n="ph.3d">30% before go-live</span> · <span class="ph-wk" id="wk-2"></span></small><span class="ph-amt" id="ph-2"></span></li>
+          </ol>
+          <details class="brk-box" open><summary data-i18n="est.how">How we worked this out</summary><ul class="brk" id="brk"></ul></details>
+          <label class="maint"><input type="checkbox" id="maint"> <span data-i18n="price.maint">I also want maintenance after launch</span></label>
+          <a class="btn btn-light" id="plan-wa" href="https://wa.me/601114196505" target="_blank" rel="noopener"><span data-i18n="price.cta">Send this estimate on WhatsApp</span> <span class="arr" aria-hidden="true">›</span></a>
+          <p class="fine"><span data-i18n="price.fine">An estimate, not a quote. We confirm a fixed price for each phase after a free call.</span> <span data-i18n="price.excl">Website packages include domain, 1 year of hosting and SSL. Not included: security audits and third-party security or compliance certifications.</span> <span data-i18n="pkg.lic">All prices are for a licence to use the software for your business. The source code stays the property of Shah Software Solution: it may not be copied, modified or resold. Owning the source code is priced separately.</span></p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2 class="section-title">Contact Us</h2>
-      <p class="section-subtitle">Have a project in mind? Let's build something amazing together!</p>
-      
-      <div class="contact-grid">
-        <div class="contact-info">
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <div class="contact-details">
-              <h3>Email</h3>
-              <a href="mailto:info@ssoftwaresolution.com">info@ssoftwaresolution.com</a>
-            </div>
+  <!-- CONTACT + FAQ -->
+  <section class="sec" id="contact" aria-labelledby="contact-h">
+    <div class="wrap two">
+      <div class="rv">
+        <p class="hud-k">////// <span data-i18n="nav.contact">Contact</span></p>
+        <h2 id="contact-h" data-i18n="contact.h">Tell us about your project</h2>
+        <p class="sub" data-i18n="contact.p">Send the form and we will reply by email or phone. Prefer chatting? WhatsApp us at +60 11-1419 6505.</p>
+        <form class="form" id="contactForm" novalidate>
+          <div class="f-row">
+            <label class="fld"><span data-i18n="contact.name">Your name</span><input id="name" name="name" type="text" autocomplete="name" required></label>
+            <label class="fld"><span data-i18n="contact.email">Email</span><input id="email" name="email" type="email" autocomplete="email" required></label>
           </div>
-          
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fas fa-phone"></i>
-            </div>
-            <div class="contact-details">
-              <h3>Phone</h3>
-              <a href="tel:+60111419650">+60 11-1419 6505</a>
-            </div>
+          <div class="f-row">
+            <label class="fld"><span data-i18n="contact.phone">Phone number</span><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+60"></label>
+            <label class="fld"><span data-i18n="contact.subject">Subject</span><input id="subject" name="subject" type="text"></label>
           </div>
-          
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fab fa-whatsapp"></i>
-            </div>
-            <div class="contact-details">
-              <h3>WhatsApp</h3>
-              <a href="https://wa.me/+601114196505" target="_blank">Chat with us</a>
-            </div>
+          <label class="fld"><span data-i18n="contact.message">Message</span><textarea id="message" name="message" rows="5" required></textarea></label>
+          <div class="f-end">
+            <button class="btn btn-dark" type="submit" id="send"><span data-i18n="contact.send">Send message</span></button>
+            <p class="f-status" id="f-status" role="status" aria-live="polite"></p>
           </div>
+        </form>
+      </div>
+      <div class="rv" id="faq">
+        <p class="hud-k">////// FAQ</p>
+        <h2 id="faq-h" data-i18n="faq.h">Before you start</h2>
+        <div class="qa">
+          <details open><summary data-i18n="faq.qa">What is Shah Software Solution?</summary><p data-i18n="faq.aa">Shah Software Solution is a Malaysian software development company (SSM 202403307959) that designs and builds websites, mobile apps, business systems and IoT for businesses. Website packages start from RM399 with domain, hosting and SSL included, and seven live demos show its HR, queue, booking, e-commerce and event systems.</p></details>
+          <details><summary data-i18n="faq.q0">How much does a website cost?</summary><p data-i18n="faq.a0">Landing pages start from RM399, corporate websites from RM899 and e-commerce websites from RM1,299. Every website package includes a domain, 1 year of hosting and SSL.</p></details>
+          <details><summary data-i18n="faq.qt">How long does it take to build a website?</summary><p data-i18n="faq.at">A landing page can be ready in 1 day, a corporate website 1 to 2 weeks and an e-commerce website 2 to 3 weeks, once your content is ready. Apps and business systems take longer; the estimator shows a timeline for your project.</p></details>
+          <details><summary data-i18n="faq.qb">Can my website be in Bahasa Melayu and English?</summary><p data-i18n="faq.ab">Yes. We build websites and systems in Bahasa Melayu, English or both, with a language switch like the one on this page.</p></details>
+          <details><summary data-i18n="faq.q1">How do payments work?</summary><p data-i18n="faq.a1">You pay in three phases: 30% to start design, 40% when you approve the design and we start building, and 30% before launch. Each phase comes with a list of exactly what you get.</p></details>
+          <details><summary data-i18n="faq.q2">Can you build a custom system or an IoT project?</summary><p data-i18n="faq.a2">Yes. We build all types of systems: HR, queue, booking, e-commerce, event operations and IoT. Custom systems are priced by quote.</p></details>
+          <details><summary data-i18n="faq.qo">Do I own the source code?</summary><p data-i18n="faq.ao">Package prices are a licence to use the software for your business. The source code stays the property of Shah Software Solution, so it may not be copied, modified or resold. Your business data stays yours and can be exported. If you want to own the source code, that is priced separately and can be discussed.</p></details>
+          <details><summary data-i18n="faq.q3">Do you maintain the system after launch?</summary><p data-i18n="faq.a3">Yes. Maintenance and support after launch are quoted separately, based on what your system needs.</p></details>
+          <details><summary data-i18n="faq.q5">How do I start?</summary><p data-i18n="faq.a5">Message us on WhatsApp at +60 11-1419 6505 or email info@ssoftwaresolution.com. We will recommend a package and a payment plan.</p></details>
         </div>
-        
-        <div class="contact-form">
-            <form id="contactForm">
-                <div class="form-group">
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    placeholder="Your Phone Number"
-                    required
-                    pattern="^\d+$"
-                    title="Please enter numbers only"
-                >
-                </div>
-                <div class="form-group">
-                <input type="text" id="subject" name="subject" placeholder="subject" required>
-                </div>
-                <div class="form-group">
-                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn-primary">Send Message</button>
-            </form>    
-        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2024 Shah Software Solution. All rights reserved.</p>
+  <!-- CTA band -->
+  <section class="cta-band" aria-labelledby="close-h">
+    <div class="wrap cta-in rv">
+      <h2 id="close-h"><span data-i18n="close.h1">Ready to build</span> <span id="close-name">Kopi Ah Seng</span><span data-i18n="close.h2">?</span></h2>
+      <div class="cta-act">
+        <a class="btn btn-light" id="close-wa" href="https://wa.me/601114196505" target="_blank" rel="noopener"><span data-i18n="close.cta">Start on WhatsApp</span> <span class="arr" aria-hidden="true">›</span></a>
+        <a class="btn btn-clear" href="mailto:info@ssoftwaresolution.com?subject=Project%20enquiry">info@ssoftwaresolution.com</a>
+      </div>
     </div>
-  </footer>
-  <script type="module" src="script.js" ></script>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="mark" href="#top"><img src="brand/svg/sss-logo-horizontal-color.svg" alt="Shah Software Solution" width="180" height="33" loading="lazy"></a>
+    <nav aria-label="Footer"><a href="#services" data-i18n="nav.services">Services</a><a href="work.html" data-i18n="nav.work">Work</a><a href="#pricing" data-i18n="nav.pricing">Pricing</a><a href="#faq" data-i18n="nav.faq">FAQ</a><a href="#contact" data-i18n="nav.contact">Contact</a></nav>
+    <p>&copy; <span id="year">2026</span> Shah Software Solution &middot; SSM 202403307959 (CT0143545-X) &middot; +60 11-1419 6505 &middot; <span data-i18n="foot.upd">Last updated</span> <time datetime="2026-10-25">25 October 2026</time></p>
+  </div>
+</footer>
+
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/" } }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+<script src="data.js" defer></script>
+<script src="script.js" defer></script>
+<script type="module" src="scene.js"></script>
 </body>
 </html>

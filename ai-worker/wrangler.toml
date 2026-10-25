@@ -1,0 +1,14 @@
+name = "sss-estimate-ai"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# Only your site may call this worker.
+ALLOWED_ORIGIN = "https://ssoftwaresolution.com"
+# Free OpenRouter models (checked 24 Oct 2026). The backup is used when the main one is busy.
+# Free models come and go: if one disappears, pick another ":free" id from openrouter.ai/models.
+OPENROUTER_MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
+OPENROUTER_BACKUP_MODEL = "google/gemma-4-31b-it:free"
+
+# The API key is a secret, never put it here. Set it with:
+#   npx wrangler secret put OPENROUTER_API_KEY

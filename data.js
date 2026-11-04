@@ -29,7 +29,7 @@ function showcaseHTML(lang) {
   const ms = lang === 'ms', L = ms ? 1 : 0, total = String(WORK.length).padStart(2, '0');
   return WORK.map((w, i) => {
     const [kind, desc] = w[lang] || w.en, host = w.url.replace(/^https:\/\//, '').replace(/\/$/, '');
-    const wa = 'https://wa.me/601114196505?text=' + encodeURIComponent(ms ? `Hai Shah Software, saya mahu sistem seperti ${w.name} (${kind}).` : `Hi Shah Software, I'd like a system like ${w.name} (${kind}).`);
+    const wa = 'https://wa.me/60175737292?text=' + encodeURIComponent(ms ? `Hai Shah Software, saya mahu sistem seperti ${w.name} (${kind}).` : `Hi Shah Software, I'd like a system like ${w.name} (${kind}).`);
     return `<li class="sc-item" id="${w.k}" data-f="${w.f}">
       <div class="sc-media">
         <a class="ice-shot" href="${w.url}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><span class="shot-bar"><i></i><i></i><i></i><span>${host}</span></span><img src="images/work/${w.k}-desk.webp" width="1200" height="750" loading="${i < 1 ? 'eager' : 'lazy'}" alt="${w.name} ${kind.toLowerCase()} on desktop"></a>
